@@ -38,7 +38,7 @@ sudo ufw allow 3000
 <h1 align="center"> Değişkenler </h1>
 
 ```sh
-# rues yazan yere bir kullanıcı ismi verin
+# berat yazan yere bir kullanıcı ismi verin
 USER=berat
 
 sudo mkdir -p /home/$USER/.ssh
