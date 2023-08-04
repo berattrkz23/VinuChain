@@ -138,7 +138,7 @@ tail -f opera.log
 ./opera attach
 ```
 
-> DİKKAT: Sunucunuzda Açılan ">" konsoluna [buradaki](https://github.com/ruesandora/VinuChain/blob/main/SFC_JSON.parse) değişkenleri girip enterlayın.
+> DİKKAT: Sunucunuzda Açılan ">" konsoluna [buradaki][(https://github.com/berattrkz23/VinuChain/blob/main/SFC_JSON.parse)] değişkenleri girip enterlayın.
 
 ```sh
 # Bir yeri düzenlemenize gerek yok, abi kontratını başlatalım:
