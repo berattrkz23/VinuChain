@@ -1,18 +1,15 @@
 <h1 align="center"> VinuChain </h1>
 
-> VinuChain ile bir süredir ilgileniyorum, bir kaç gündür de validatörünü çalıştırıyorum.
-
-> Ödül konusuna aldığım cevap; `Validatörünüz ne kadar çalışırsa o kadar testnet ödülü`, siz yinede sorun isterseniz.
 
 > Ne kadar sürecek sorusuna aldığım cevap `1.5 ay`, tahmini maliyetim: `Hetznerde $6.`
 
 > `Lütfen kod bloklarında ve dışında yazdığım her şeyi okuyunuz, nedenini çok iyi anlayacaksınız.`
 
-> Topluluk kanalları: [Duyurular](https://t.me/RuesAnnouncement) - [Sorularınız İçin](https://t.me/RuesChat) - [VinuChain Discord](https://discord.gg/vinu) - [Explorer](https://vinuscan.com/)
+[VinuChain Discord](https://discord.gg/vinu) - [Explorer](https://vinuscan.com/)
 
 <h1 align="center"> Donanım </h1>
 
-> Sunucu olarak [Hetzner Kullanıyorum](https://github.com/ruesandora/Hetzner/blob/main/README.md)
+> Sunucu olarak [Hetzner Kullanıyorum]
 
 ```
 # Benim kullandığım: 
@@ -22,14 +19,9 @@
 4 CPU - 16 RAM - 500 SSD
 ```
 
-> Benim sunucumda kullanım görselde ki gibi:
-
-![image](https://github.com/ruesandora/VinuChain/assets/101149671/4ccb5329-e04a-4552-ae54-b391703d2f6b)
-
-
 <h1 align="center"> Sistem güncellemelerimiz </h1>
 
-```sh
+```
 # Sistem güncellemeleri
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install ufw
@@ -47,7 +39,7 @@ sudo ufw allow 3000
 
 ```sh
 # rues yazan yere bir kullanıcı ismi verin
-USER=rues
+USER=berat
 
 sudo mkdir -p /home/$USER/.ssh
 sudo touch /home/$USER/.ssh/authorized_keys
@@ -65,7 +57,6 @@ kullanıcıİsminiz ALL=(ALL:ALL) ALL
 # CTRL + X + Y + ENTER ile kaydedip çıkıyoruz.
 ```
 
-![image](https://github.com/ruesandora/VinuChain/assets/101149671/de311c2d-6ab1-4b03-8075-df4861a3a0c2)
 
 <h1 align="center"> Go ve bazı kütüphaneler </h1>
 
@@ -149,8 +140,6 @@ tail -f opera.log
 
 > DİKKAT: Sunucunuzda Açılan ">" konsoluna [buradaki](https://github.com/ruesandora/VinuChain/blob/main/SFC_JSON.parse) değişkenleri girip enterlayın.
 
-> Daha basit bir ifade ile; [buradaki](https://github.com/ruesandora/VinuChain/blob/main/SFC_JSON.parse) linkten komutu kopyalayıp yapıştırın.
-
 ```sh
 # Bir yeri düzenlemenize gerek yok, abi kontratını başlatalım:
 sfcc = web3.ftm.contract(abi).at("0xfc00face00000000000000000000000000000000")
@@ -206,12 +195,6 @@ tail -f validator.log
 <h1 align="center"> Konu dışı </h1>
 
 > VinuChain bir meme token değil merak etmeyin. Ahım şahım bir proje değil ama maliyeti düşük ve çalıştıracağım ben.
-
-> Madem buraya kadar okudunuz, elimde 5 milyon VC (VinuChain) token var, rueschatten yazan `ilk 50 kişiye 100k` veriyorum.
-
->  Topluluk kanalları: [Duyurular](https://t.me/RuesAnnouncement) - [Sorularınız İçin](https://t.me/RuesChat) - [VinuChain Discord](https://discord.gg/vinu) - [Explorer](https://vinuscan.com/)
-
-> Daha ekleyecek yorumlarım vb. şeyler olabilir onun için yukarıdan yıldızlayın takibinizde olsun, eksik görürseniz PR atabilirsin, si yu!
 
 
 
